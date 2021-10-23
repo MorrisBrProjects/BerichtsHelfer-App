@@ -55,7 +55,7 @@ public class BerichteFragment extends Fragment {
 
         //final TextView textView = binding.textBerichte;
         listView = binding.listview;
-        button = binding.imageButton6;
+        button = binding.addBerichtButton;
 
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
